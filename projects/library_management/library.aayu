@@ -1,0 +1,4 @@
+record Library.
+name
+owner
+end.

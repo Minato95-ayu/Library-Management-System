@@ -1,0 +1,5 @@
+record Student.
+name
+age
+student_id
+end.

@@ -1,0 +1,6 @@
+record Book.
+title
+author
+book_id
+available
+end.

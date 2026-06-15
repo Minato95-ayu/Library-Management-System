@@ -1,0 +1,40 @@
+use student.
+use book.
+use library.
+use borrow.
+use return.
+
+task add_student with name and age and id.
+show "Student Added".
+end.
+
+task add_book with title and author and id.
+show "Book Added".
+end.
+
+task show_books.
+show "Showing Books".
+end.
+
+task show_students.
+show "Showing Students".
+end.
+
+run add_student with "Ayush" and 20 and 1.
+run add_book with "The Alchemist" and "Paulo Coelho" and 101.
+
+Book b1 is.
+title "The Alchemist"
+author "Paulo Coelho"
+book_id 101
+available 1
+end.
+
+Student s1 is.
+name "Ayush"
+age 20
+student_id 1
+end.
+
+run borrow_book with b1 and s1.
+run return_book with b1 and s1.
